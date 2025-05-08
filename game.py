@@ -15,3 +15,6 @@ def main():
             break
 if __name__ == "__main__":
     main()
+
+def get_attempts():
+    return 0  
