@@ -11,3 +11,6 @@ def check_guess(number, guess):
         return "Too low!"
     else:
         return "Too high!"
+
+def is_even(number):
+    return number % 2 == 0
