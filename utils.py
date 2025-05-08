@@ -8,3 +8,6 @@ def get_valid_input():
             print("Please enter a number between 1 and 100.")
         except ValueError:
             print("Invalid input! Enter a number.")
+
+def print_welcome():
+    print("Welcome to the Number Guess Game!")
